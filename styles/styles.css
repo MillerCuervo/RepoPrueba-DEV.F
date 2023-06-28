@@ -1,13 +1,19 @@
-body{background-color:rgb(167, 167, 252) }
-
-header{background-color: rgb(155, 155, 233);}
-
-main{background-color: rgb(149, 149, 221);}
-
-.titulo-img{
-   text-align: center;
+body {
+  background-color: rgb(167, 167, 252);
 }
 
-img{
-    border-radius: 50px;
+header {
+  background-color: rgb(155, 155, 233);
+}
+
+main {
+  background-color: rgb(149, 149, 221);
+}
+
+.titulo-img {
+  text-align: center;
+}
+
+img {
+  border-radius: 50px;
 }
