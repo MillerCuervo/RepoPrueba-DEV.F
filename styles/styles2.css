@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif
+}
+body{
+    height: 100vh;
+    background-color: #202124;
+}
+header{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 58px;
+    padding: 18px;
+/*background-color: rgb(85, 179, 179);*/
+}
+header .menuderecha {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 22px;
+    align-items: center;
+    padding: 2px;
+    /*background-color: indigo;*/
+}
+header .menuderecha a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: small;
+}
+header .menuderecha a img{
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+.dots-logo{
+    display: inline-block;
+    background-image: url(./assets/dots-logo.svg);
+    height: 24px;
+    width: 24px;
+}
+main {
+    height: 76%;
+    display: flex;
+    justify-content: center;
+    /*background-color: aqua;*/
+}
+main .contenedor{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 15px;
+    /*background-color: blueviolet;*/
+}
+#logo-google{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+}
+main .contenedor .buscador{
+    gap: 5px;
+    align-items: center;
+    display: flex;
+    height: 50px;
+    width: 560px;
+    padding: 8px 12px;
+    border: 1px solid gray;
+    border-radius: 24px;
+}
+#Buscador-microfono{
+    background-color: transparent;
+    border: none;
+}
+#Buscador-camara{
+    background-color: transparent;
+    border: none;
+}
+#Buscador-Lupa{
+    background-color: transparent;
+    border: none;
+    }
+main .contenedor .buscador input{
+    width: 100%;
+    background-color: transparent;
+    color: whitesmoke;
+    border: none;
+}
+main .contenedor .botonera-buscador{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+main .contenedor .botonera-buscador button{
+    border: none;
+    background-color: #343030;
+    color: whitesmoke;
+    padding: 12px;
+    border-radius: 4px;
+}
+footer{
+    background: rgb(26, 25, 25);
+    height: 15%;
+    padding: 0 0px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+footer section{
+    /*colombia*/
+    font-size: medium;
+    padding: 23px;
+    display: flex;
+    align-items: center;
+    height: 50%;
+    color: #BDC1C6
+}
+.Info{
+    border-top: 1px solid #BDC1C6;
+    margin: 0px;
+    padding: 15px;
+    justify-content: space-between;
+    gap: 5px;
+}
+.Info a{
+    display: inline-flex;
+    padding: 8px;
+    flex-direction: row;
+    color: #BDC1C6;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    gap: 8px;
+    text-decoration: none;
+}
