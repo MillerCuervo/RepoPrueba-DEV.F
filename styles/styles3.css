@@ -31,6 +31,7 @@ header p:hover{
 header p:active{
   background-color: gray;
 }
+
 .pinterest{
   height: 30%;
   transition: 0.3s;
@@ -38,8 +39,25 @@ header p:active{
  .pinterest:hover{
   cursor: pointer;
   height: 40%;
-  
  }
+
+ .buscador{
+  background-image:url() ;
+  background-size: contain;
+  background-position: 5px 5px;
+
+  background-color: rgb(228, 226, 226);
+  height: 60%;
+  width: 63%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  border-radius: 30px;
+  margin-left: 15px;
+  padding-left: 40px;
+ }
+ 
 main{
   background-color: rgb(157, 252, 220);
   height: 70vh;
